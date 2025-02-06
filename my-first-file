@@ -2,11 +2,20 @@ Console.WriteLine("Enter first number");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second number");
 int b = Convert.ToInt32(Console.ReadLine());
-int result  = a + b ;
-Console.Write("Result: " + result); 
+
+int result = a + b;
+Console.Write("Result: " + result);
+Console.WriteLine("Enter first number ");
+int h = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter second number");
+int m = Convert.ToInt32(Console.ReadLine());
+int result = h/m;
+Console.Write("subresult: " + subresult);
 Console.WriteLine("Enter first number");
 int c = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second number");
 int d = Convert.ToInt32(Console.ReadLine());
 int result = c - d ;
-Console.Write("Result: " + result);
+Console.Write("miniresult : " + miniresult);
+
+
