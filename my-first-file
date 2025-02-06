@@ -1,0 +1,6 @@
+Console.WriteLine("Add first number");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Add second number");
+int b = Convert.ToInt32(Console.ReadLine());
+int result a + b
+Console.Write("Result: " + result);
