@@ -9,13 +9,20 @@ Console.WriteLine("Enter first number ");
 int h = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second number");
 int m = Convert.ToInt32(Console.ReadLine());
-int result = h/m;
+int subresult = h/m;
 Console.Write("subresult: " + subresult);
 Console.WriteLine("Enter first number");
 int c = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second number");
 int d = Convert.ToInt32(Console.ReadLine());
-int result = c - d ;
+int miniresult = c - d ;
 Console.Write("miniresult : " + miniresult);
+Console.WriteLine("Enter first number");
+int k = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter second number ");
+int e = Convert.ToInt32(Console.ReadLine());
+int multiresult = k*e;
+Console.Write("Multiresult:" + multiresult);
+
 
 
